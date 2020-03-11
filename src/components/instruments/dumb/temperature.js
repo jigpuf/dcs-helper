@@ -19,9 +19,9 @@ class Temperature extends React.Component {
           <a href='https://www.thermocoupleinfo.com/type-k-thermocouple.htm' target='_blank'
           >(K-Type)</a>
         <h3>TC Checkout</h3>
-          <img src='/instrumentation/tcMeasure.jpeg' />
+          <img src='/instrumentation/tcInstrument.svg' />
         <h3>TC Simulate</h3>
-          <img src='/instrumentation/tcSource.jpeg'/>
+          <img src='/instrumentation/tcChannel.svg'/>
           <hr />
         <h2>RTD</h2>
           <h3>RTD Pinout</h3>
