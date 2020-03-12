@@ -1,6 +1,18 @@
 import React from 'react';
-import Crimpers from './tools/crimpers.js'
 import TroubleshootingToolbox from './tools/troubleshootingToolbox.js'
+import Taps from './tools/taps.js'
+import Crimpers from './tools/crimpers.js'
+import Hole from './tools/hole.js'
+import Label from './tools/label.js'
+import Swage from './tools/swage.js'
+import Multimeter from './tools/multimeter.js'
+import Injection from './tools/injection.js'
+import Oscope from './tools/oscope.js'
+import FunctionG from './tools/functionG.js'
+import SafetyWire from './tools/safetyWire.js'
+import Scissor from './tools/scissor.js'
+import Man from './tools/man.js'
+import Sky from './tools/sky.js'
 
 class Tools extends React.Component {
   state = {
@@ -13,12 +25,20 @@ class Tools extends React.Component {
   }
   render () {
     const Items = [
-      {name: 'Hole Punch', slug: 'hole',},
-      {name: 'Label Maker', slug: 'label',},
-      {name: 'Crimpers', slug: 'crimpers', component:<Crimpers />},
       {name: 'Troubleshooting', slug: 'troubleshooting', component:<TroubleshootingToolbox />},
-      {name: 'Swagelock', slug: 'swage',},
-      {name: 'Label Maker', slug: 'labelMaker',},
+      {name: 'Taps', slug: 'taps', component:<Taps />},
+      {name: 'Crimpers', slug: 'crimpers', component:<Crimpers />},
+      {name: 'Hole Punch', slug: 'hole', component:<Hole />},
+      {name: 'Label Maker', slug: 'label', component:<Label />},
+      {name: 'Swagelock', slug: 'swage', component:<Swage />},
+      {name: 'Multimeter', slug: 'multimeter', component:<Multimeter />},
+      {name: 'Injection Meter', slug: 'injection', component:<Injection />},
+      {name: 'O-Scope', slug: 'oscope', component:<Oscope />},
+      {name: 'Function Generator', slug: 'function', component:<FunctionG />},
+      {name: 'Safety Wire', slug: 'safetyWire', component:<SafetyWire />},
+      {name: 'Scissor Lift', slug: 'scissor', component:<Scissor />},
+      {name: 'Man Lift', slug: 'man', component:<Man />},
+      {name: 'Skytrac', slug: 'sky', component:<Sky />},
     ]
     const renderItems = Items.map(item => {
       return (

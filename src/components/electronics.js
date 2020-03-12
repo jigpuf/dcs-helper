@@ -3,7 +3,6 @@ import Rlc from './electronics/rlc.js';
 import Wheatstone from './electronics/wheatstone.js';
 import Components from './electronics/components.js';
 import Protection from './electronics/protection.js';
-import Test from './electronics/test.js'
 import Logic from './electronics/logic.js';
 import Ground from './electronics/ground.js';
 import Pcb from './electronics/pcb.js';
@@ -23,7 +22,6 @@ class Electronics extends React.Component {
       {name: 'Wheatstone', slug: 'wheatstone', component:<Wheatstone /> },
       {name: 'Components', slug: 'components', component:<Components /> },
       {name: 'Circuit Protection', slug: 'protection', component:<Protection /> },
-      {name: 'Test Equipment', slug: 'test', component:<Test />},
       {name: 'Digital/logic gates', slug: 'digital', component:<Logic /> },
       {name: 'Grounding', slug: 'isolation', component:<Ground /> },
       {name: 'PCBs', slug: 'pcb', component:<Pcb /> },

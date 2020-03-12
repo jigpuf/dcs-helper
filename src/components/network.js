@@ -1,5 +1,6 @@
 import React from 'react';
 import Osi from './network/osi.js'
+import It from './network/it.js'
 
 class Networking extends React.Component {
   state = {
@@ -13,6 +14,8 @@ class Networking extends React.Component {
   render () {
     const Items = [
       {name: 'OSI Model', slug: 'osi', component:<Osi />},
+      {name: 'Troubleshoot IT', slug: 'it', component:<It />},
+
 
 
     ]

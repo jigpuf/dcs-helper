@@ -30,12 +30,13 @@ const MainSection = (props) => {
       {activeTab3 === 'raceways' && <Raceways />}
       {activeTab3 === 'electronics' && <Electronics />}
       {activeTab3 === 'power' && <Power />}
+      {activeTab3 === 'networking' && <Network />}
       {activeTab3 === 'software' && <Software />}
       {activeTab3 === 'tools' && <Tools />}
       {activeTab3 === 'training' && <Training />}
       {activeTab3 === 'panels' && <Panels />}
       {activeTab3 === 'inventory' && <Inventory />}
-      {activeTab3 === 'networking' && <Network />}
+
 
 
     </div>

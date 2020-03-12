@@ -1,4 +1,7 @@
 import React from 'react';
+import Tray from './raceways/tray.js';
+import Rigid from './raceways/rigid.js';
+import Flex from './raceways/flex.js';
 
 class Raceways extends React.Component {
   state = {
@@ -11,9 +14,9 @@ class Raceways extends React.Component {
   }
   render () {
     const Items = [
-      {name: 'Cable Tray', slug: 'tray',},
-      {name: 'Rigid', slug: 'rigid',},
-      {name: 'Flex Seal', slug: 'flex',},
+      {name: 'Cable Tray', slug: 'tray', component:<Tray />},
+      {name: 'Rigid', slug: 'rigid', component:<Rigid />},
+      {name: 'Flex Seal', slug: 'flex', component:<Flex />},
     ]
     const renderItems = Items.map(item => {
       return (

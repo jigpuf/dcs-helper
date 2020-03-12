@@ -5,14 +5,18 @@ import Flame from './dumb/flame.js';
 import Flow from './dumb/flowMeter.js';
 import Hyv from './dumb/hyv.js';
 import Limit from './dumb/limit.js';
-import LoadCell from './dumb/loadCell.js'
-import LoadPin from './dumb/loadPin.js'
+import LoadCell from './dumb/loadCell.js';
+import LoadPin from './dumb/loadPin.js';
+import LVDT from './dumb/lvdt.js';
 import Mics from './dumb/mics.js';
+import Strain from './dumb/strain.js';
+import Potentiometer from './dumb/pot.js';
 import Pressure from './dumb/pressure.js';
 import Prox from './dumb/prox.js';
 import Temperature from './dumb/temperature.js';
 import V200 from './dumb/v200.js';
 import Valves from './dumb/valves.js';
+
 
 class Dumb extends React.Component {
   state = {
@@ -30,19 +34,19 @@ class Dumb extends React.Component {
       {name: 'Flame Detectors', slug: 'flame', component:<Flame /> },
       {name: 'Flow Meter', slug: 'flow', component:<Flow /> },
       {name: 'Hydraulic Valves', slug: 'hyv', component:<Hyv /> },
-      {name: 'Level Transmitters', slug: 'level'},
       {name: 'Limits', slug: 'limits', component:<Limit />},
       {name: 'Load Cell', slug: 'lc', component:<LoadCell />},
       {name: 'Load Pin', slug: 'lp', component:<LoadPin />},
-      {name: 'LVDT', slug: 'lvdt'},
+      {name: 'LVDT', slug: 'lvdt', component:<LVDT />},
       {name: 'Microphones', slug: 'microphones', component:<Mics /> },
-      {name: 'Strain Gauge', slug: 'sg',},
-      {name: 'Potentiometer', slug: 'pot'},
+      {name: 'Strain Gauge', slug: 'sg', component:<Strain />},
+      {name: 'Potentiometer', slug: 'pot', component:<Potentiometer />},
       {name: 'Pressure', slug: 'pressure', component:<Pressure /> },
       {name: 'Proximity', slug: 'prox', component:<Prox /> },
       {name: 'Temperature', slug: 'tempFeedback', component:<Temperature /> },
       {name: 'V200', slug: 'v200', component:<V200 /> },
       {name: 'Valves', slug: 'valves', component:<Valves /> },
+
     ]
     const renderItems = Items.map(item => {
       return (

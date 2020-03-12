@@ -64,9 +64,9 @@ class Osi extends React.Component {
         </p>
 
       <h5>Resources</h5>
-      <a href="https://en.wikipedia.org/wiki/OSI_model"
+      <a href="https://en.wikipedia.org/wiki/OSI_model" target='_blank'
       >OSI Model Wikipedia</a><br />
-      <a href="https://www.youtube.com/watch?v=HEEnLZV2wGI"
+      <a href="https://www.youtube.com/watch?v=HEEnLZV2wGI" target='_blank'
       >OSI model Demystified</a><br />
       </div>
     );

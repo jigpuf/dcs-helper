@@ -21,7 +21,6 @@ class Power extends React.Component {
       {name: 'Switches', slug: 'switches' },
       {name: 'Panels', slug: 'panels' },
       {name: 'Codes', slug: 'codes' },
-      {name: 'Tools', slug: 'tools'},
       {name: 'ATS Function', slug: 'ats',},
       {name: 'Grounding Systems', slug: 'grounding',},
       {name: 'Shielding', slug: 'shielding',},

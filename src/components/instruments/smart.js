@@ -5,6 +5,8 @@ import Er5k from './smart/er5k.js';
 import Gas from './smart/gas.js';
 import Heaters from './smart/heaters.js';
 import Nd9 from './smart/nd9.js';
+import Tugger from './smart/tugger.js';
+import Level from './smart/level.js';
 
 class Smart extends React.Component {
   state = {
@@ -23,6 +25,8 @@ class Smart extends React.Component {
       {name: 'Gas Sensors', slug: 'gas', component:<Gas />},
       {name: 'Heaters', slug: 'heaters', component:<Heaters /> },
       {name: 'ND9', slug: 'nd9', component:<Nd9 /> },
+      {name: 'Tugger', slug: 'tugger', component:<Tugger /> },
+      {name: 'Level Transmitters', slug: 'level', component:<Level /> },
     ]
     const renderItems = Items.map(item => {
       return (
