@@ -1,4 +1,5 @@
 import React from 'react';
+import FileSync from './controls/sync.js';
 import Plc from './controls/plc.js';
 import Ni from './controls/ni.js';
 import Vfd from './controls/vfd.js';
@@ -18,6 +19,7 @@ class Controls extends React.Component {
   render () {
 
     const Items = [
+      {name: 'file_sync', slug: 'sync', component:<FileSync /> },
       {name: 'PLC', slug: 'plc', component:<Plc /> },
       {name: 'National Instruments', slug: 'ni', component:<Ni />},
       {name: 'VFD', slug: 'vfd', component:<Vfd />},

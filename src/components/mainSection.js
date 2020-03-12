@@ -10,6 +10,7 @@ import Tools from './tools.js';
 import Panels from './panels.js';
 import Training from './training.js';
 import Inventory from './inventory.js';
+import Network from './network.js';
 
 
 /*
@@ -34,6 +35,8 @@ const MainSection = (props) => {
       {activeTab3 === 'training' && <Training />}
       {activeTab3 === 'panels' && <Panels />}
       {activeTab3 === 'inventory' && <Inventory />}
+      {activeTab3 === 'networking' && <Network />}
+
 
     </div>
   );
