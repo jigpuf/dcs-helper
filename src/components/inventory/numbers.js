@@ -153,6 +153,12 @@ class Numbers extends React.Component {
             <tr><td>Cage bolt</td><td></td><td></td></tr>
           <tr><th>Cabling</th><th>Part Number</th><th>Description</th></tr>
           <tr><th>Snakeskin</th><th>Part Number</th><th>Description</th></tr>
+          <tr><th>Din Rail</th><th>Part Number</th><th>Description</th></tr>
+<tr><td>Flex-Strut 2-hole unistrut foot</td><td>GSE-FS-5810 E/G</td><td></td></tr>
+<tr><td>4-Hole Foot</td><td></td><td></td></tr>
+<tr><td>12 inch corner Brace</td><td>GSE-FS-5472-12 E/G</td><td></td></tr>
+<tr><td>16 inch corner Brace</td><td>GSE-FS-5472-16 E/G</td><td></td></tr>
+<tr><td>flex strut 6" Long Arm Channel Bracket Slot Up</td><td>GSE-FS-5631-6 E/G</td><td></td></tr>
         </table>
       </div>
     );
