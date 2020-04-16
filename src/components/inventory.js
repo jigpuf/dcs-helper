@@ -1,5 +1,6 @@
 import React from 'react';
 import Numbers from './inventory/numbers.js'
+import InventoryLinks from './inventory/inventoryLinks.js'
 
 class Inventory extends React.Component {
   state = {
@@ -14,6 +15,7 @@ class Inventory extends React.Component {
     const Items = [
       {name: 'Process', slug: 'process',},
       {name: 'Part Numbers', slug: 'numbers', component: <Numbers />},
+      {name: 'Links', slug: 'links', component: <InventoryLinks />},
     ]
     const renderItems = Items.map(item => {
       return (

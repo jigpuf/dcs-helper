@@ -69,7 +69,7 @@ class Pressure extends React.Component {
           <li>RTX</li>
           <li>PLC</li>
         <h3>Troubleshooting</h3>
-          Simulate Instrument:<br />
+          Channel Checkout:<br />
           Instrument Checkout:<br />
           Software Checkouts:<br />
       </div>

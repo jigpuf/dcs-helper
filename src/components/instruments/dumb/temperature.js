@@ -18,9 +18,9 @@ class Temperature extends React.Component {
           >(E-Type)</a>
           <a href='https://www.thermocoupleinfo.com/type-k-thermocouple.htm' target='_blank'
           >(K-Type)</a>
-        <h3>TC Checkout</h3>
+        <h3>TC  Channel Checkout</h3>
           <img src='/instrumentation/tcInstrument.svg' />
-        <h3>TC Simulate</h3>
+        <h3>TC Instrument Checkout</h3>
           <img src='/instrumentation/tcChannel.svg'/>
           <hr />
         <h2>RTD</h2>
@@ -52,12 +52,10 @@ class Temperature extends React.Component {
             <tr><td>Com on Source side</td><td>Feedback -</td></tr>
             <tr><td>4 Wire on source side</td><td>Excite +</td></tr>
           </table>
-          <img src='/instrumentation/fluke725RTD.svg' />
-          <h3>Simulate</h3>
-
-
-
-
+          <h3>Checkout RTD</h3>
+          <img src='/instrumentation/fluke725RTD.svg' /><br />
+          <h3>Checkout RTD Channel</h3>
+          <img src='/instrumentation/rtdChannel.svg'/><br />
 
 
           <h3>Information</h3>
