@@ -1,4 +1,5 @@
 import React from 'react';
+import Process from './inventory/process.js'
 import Numbers from './inventory/numbers.js'
 import InventoryLinks from './inventory/inventoryLinks.js'
 
@@ -13,7 +14,7 @@ class Inventory extends React.Component {
   }
   render () {
     const Items = [
-      {name: 'Process', slug: 'process',},
+      {name: 'Process', slug: 'process', component:<Process />},
       {name: 'Part Numbers', slug: 'numbers', component: <Numbers />},
       {name: 'Links', slug: 'links', component: <InventoryLinks />},
     ]

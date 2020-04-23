@@ -39,7 +39,8 @@ class PlcHardware extends React.Component {
         <li></li>
         <li></li>
         <li></li>
-        PLC Standard hardware:<br />
+        <h3>PLC Standard hardware:</h3>
+        <strong>Standard:</strong><br />
           <table>
             <tr><th>Part Type</th><th>Part Number</th><th>Note</th></tr>
             <tr><td>CPU</td><td>L33ER</td><td></td></tr>
@@ -61,6 +62,23 @@ class PlcHardware extends React.Component {
           <li>End caps can add more modules without CPU not sure how many</li>
           <li>TCs need to be at least 3 spaces away from PSU</li>
           <li>Only one PSU can be used in one brick of modules.  They cannot auction</li>
+          <strong>Smaller/cheaper:</strong><br />
+          <table>
+            <tr><th>Part Type</th><th>Part Number</th><th>Note</th></tr>
+            <tr><td>CPU-Micro870 Processor</td><td>2080-LC70-24QBB</td><td>14DI,10DO included</td></tr>
+            <tr><td>Plug IN, 4 Channel AI </td><td>2080-IF4</td><td></td></tr>
+            <tr><td>Plug in, 8 Channel 4DI, 4DO</td><td>2080-IQ4OB4</td><td></td></tr>
+            <tr><td>Expansion, 16 channel digital input module</td><td>2085-IQ16</td><td></td></tr>
+            <tr><td>Expansion, 16 channel digital output module</td><td>2085-OB16</td><td></td></tr>
+            <tr><td>Expansion, 4 channel Thermocouple/RTD module</td><td>2085-IRT4</td><td></td></tr>
+            <tr><td>Expansion, 8 channel AI E/I module</td><td>2085-IF8</td><td></td></tr>
+            <tr><td>Expansion, 4 channel AO E/I module</td><td>2085-OF4</td><td></td></tr>
+            <tr><td>End Cap, used after expansion modules</td><td>2085-ECR</td><td></td></tr>
+          </table>
+          Notes:<br />
+          Can be ordered from <a href='https://www.reynoldsonline.com/' target='_blank'
+          >The Reynolds Company</a><br />
+          Contact:ccarnes@reynco.com 254-776-7400
       </div>
     );
   }

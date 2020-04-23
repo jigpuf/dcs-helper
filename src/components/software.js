@@ -5,6 +5,7 @@ import Control from './software/control.js';
 import Jira from './software/workflow/jira.js';
 import Confluence from './software/workflow/confluence.js';
 import Command from './software/command.js';
+import Gui from './software/gui.js';
 
 class Software extends React.Component {
   state = {
@@ -23,6 +24,11 @@ class Software extends React.Component {
       {name: 'Jira', slug: 'jira', component:<Jira />},
       {name: 'Confluence', slug: 'confluence', component:<Confluence />},
       {name: 'Command Line', slug: 'command', component:<Command />},
+      {name: 'Borg', slug: 'borg',},
+      {name: 'Texas Data Viewer', slug: 'tdv',},
+      {name: 'GUIs', slug: 'gui', component:<Gui />},
+
+
 
     ]
     const renderItems = Items.map(item => {
