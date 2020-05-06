@@ -3,13 +3,14 @@ import React from 'react';
 class ClearPath extends React.Component {
   render () {
     return (
-      <div>Clear Path
+      <div>
+        <h2>Open Path</h2>
 
 
 
 
       <h3>Information</h3>
-        Model:<br />
+        Model: Spectrex Quasar 902<br />
         Part Number:<br />
         Manufacturer website<br />
         Videos:<br />
@@ -18,6 +19,13 @@ class ClearPath extends React.Component {
         Circuit Diagram:<br />
         Mounting:<br />
         Pinouts:<br />
+        <table>
+          <tr><th>Channel</th><th>Signal</th><th></th></tr>
+          <tr><td>Level</td><td>4-20mA HART</td><td></td></tr>
+          <tr><td>Fault</td><td>Normally Closed contact</td><td></td></tr>
+          <tr><td>Alarm</td><td>Normally Open Contact</td><td></td></tr>
+          <tr><td>Communications</td><td>RS 485</td><td></td></tr>
+        </table>
         Connectors<br />
       <h3>Setup</h3>
         Software<br />

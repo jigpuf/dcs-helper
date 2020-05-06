@@ -7,6 +7,8 @@ import Heaters from './smart/heaters.js';
 import Nd9 from './smart/nd9.js';
 import Tugger from './smart/tugger.js';
 import Level from './smart/level.js';
+import AudioPlayer from './smart/audioPlayer.js';
+
 
 class Smart extends React.Component {
   state = {
@@ -19,7 +21,7 @@ class Smart extends React.Component {
   }
   render () {
     const Items = [
-      {name: 'Clear Path', slug: 'clearPath', component:<ClearPath /> },
+      {name: 'Open Path', slug: 'clearPath', component:<ClearPath /> },
       {name: 'Coriolis', slug: 'coriolis', component:<Coriolis /> },
       {name: 'ER5K', slug: 'er5k', component:<Er5k /> },
       {name: 'Gas Sensors', slug: 'gas', component:<Gas />},
@@ -27,6 +29,7 @@ class Smart extends React.Component {
       {name: 'ND9', slug: 'nd9', component:<Nd9 /> },
       {name: 'Tugger', slug: 'tugger', component:<Tugger /> },
       {name: 'Level Transmitters', slug: 'level', component:<Level /> },
+      {name: 'Audio Player', slug: 'audio', component:<AudioPlayer /> },
     ]
     const renderItems = Items.map(item => {
       return (

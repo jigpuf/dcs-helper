@@ -16,6 +16,7 @@ import Prox from './dumb/prox.js';
 import Temperature from './dumb/temperature.js';
 import V200 from './dumb/v200.js';
 import Valves from './dumb/valves.js';
+import Philtec from './dumb/philtec.js'
 
 
 class Dumb extends React.Component {
@@ -46,6 +47,7 @@ class Dumb extends React.Component {
       {name: 'Temperature', slug: 'tempFeedback', component:<Temperature /> },
       {name: 'V200', slug: 'v200', component:<V200 /> },
       {name: 'Valves', slug: 'valves', component:<Valves /> },
+      {name: 'Philtec', slug: 'philtec', component:<Philtec /> },
 
     ]
     const renderItems = Items.map(item => {
