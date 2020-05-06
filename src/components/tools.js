@@ -13,6 +13,7 @@ import SafetyWire from './tools/safetyWire.js'
 import Scissor from './tools/scissor.js'
 import Man from './tools/man.js'
 import Sky from './tools/sky.js'
+import ContactRetention from './tools/contactRetention.js'
 
 class Tools extends React.Component {
   state = {
@@ -39,6 +40,7 @@ class Tools extends React.Component {
       {name: 'Scissor Lift', slug: 'scissor', component:<Scissor />},
       {name: 'Man Lift', slug: 'man', component:<Man />},
       {name: 'Skytrac', slug: 'sky', component:<Sky />},
+      {name: 'Contact retention tool', slug: 'retention', component:<ContactRetention />},
     ]
     const renderItems = Items.map(item => {
       return (

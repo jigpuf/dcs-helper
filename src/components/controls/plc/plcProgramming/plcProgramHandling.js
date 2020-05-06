@@ -13,6 +13,14 @@ class PlcLoadProgram extends React.Component {
             <li>Comunications	&rarr; Pick processor	&rarr; <button>Download</button></li>
           </ol>
         <h3>New Program</h3>
+          <ol>
+            <li>Open Studio5000</li>
+            <li>Create New Project </li>
+            <li>Logic &rarr; Select Processer</li>
+            <li>Put in program name</li>
+            <li>Choose Firmware version</li>
+            <li>Hit Finish</li>
+          </ol>
         <h3>Remove program from PLC</h3>
       </div>
     );
