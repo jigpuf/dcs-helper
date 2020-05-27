@@ -52,6 +52,7 @@ class Drager8000 extends React.Component {
           </table>
           <hr />
         <h3>Physical Build</h3>
+
           <h4>Device Pinout</h4>
             <table>
               <tr><th>Signal</th><th>Terminal</th><th>Note</th></tr>
@@ -77,6 +78,7 @@ class Drager8000 extends React.Component {
           splash gaurd will screw on directly to the sensor</p>
 
           <h4>Sensor mounting</h4>
+          The holes are 3.5 inches left to right and 3.5 inches top to bottom
           <hr />
         <h3>System Configuration</h3>
         To Enter Setup:
