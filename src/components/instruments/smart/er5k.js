@@ -22,13 +22,20 @@ class Er5k extends React.Component {
         Manual:<br />
         <a href='https://www.emerson.com/documents/automation/manual-er5000-user-manual-tescom-en-123612.pdf'
         >ER5K Manual</a><br />
+        External Feedback not Monitored<br />
         <li>P.95 current operated external feedback not monitored</li>
         <li>P.97 Voltage operated external feedback not monitored</li>
+        External Feedback Monitored<br />
         <li>P.98 Current Operated external feedback monitored floating input with Current Input Card</li>
         <li>P.99 Current Operated external feedback monitored ground reference with Current Input Card</li>
         <li>P.100 Current Operated external Feedback monitored with Voltage Input card</li>
         <li>P.102 Voltage Operated external feedback monitored with Voltage Input Card</li>
       <h3>Physical Setup</h3>
+        Questions to answer:<br />
+        <li>External or internal feedback</li>
+        <li>Current or Voltage ducer for external Feedback</li>
+        <li>Current or Voltage card for monitoring external feedback</li>
+        <li>If Current ducer used for external feedback, to current card, ground reference or floating input setup</li>
         Circuit Diagram:<br />
         Mounting:<br />
         Pinouts:<br />
