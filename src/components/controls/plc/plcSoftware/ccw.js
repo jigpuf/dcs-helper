@@ -5,6 +5,22 @@ class CCW extends React.Component {
     return (
       <div>
       <h2>Connected Components Workbench</h2>
+      <a href='https://literature.rockwellautomation.com/idc/groups/literature/documents/um/2080-um002_-en-e.pdf' target='_blank'
+      >Micro870 Handbook</a><br />
+      <table>
+        <tr><th>Subject</th><th>Page</th></tr>
+        <tr><td>Other documentation</td><td>iii-v</td></tr>
+        <tr><td>Controller Features</td><td>1-7</td></tr>
+        <tr><td>CCW Download Link</td><td>11</td></tr>
+        <tr><td>Conroller physical installation</td><td>33-40</td></tr>
+        <tr><td>grounding guidlines link</td><td>45</td></tr>
+        <tr><td>Analog grounding</td><td>52-53</td></tr>
+        <tr><td>Configure Ethernet Settings</td><td>70-72</td></tr>
+        <tr><td>Upgrade firmware</td><td>247-253</td></tr>
+        <tr><td>USB Communication</td><td>254-260</td></tr>
+        <tr><td>Forcing I/Os</td><td>277-278</td></tr>
+        <tr><td>Troubleshooting</td><td>303-315</td></tr>
+      </table>
       <h3>Software Dependencies</h3>
         Windows 10 requires microsoft.net 3.5 Software Package 1<br />
         To find out if this is installed:<br />

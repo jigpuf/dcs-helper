@@ -16,7 +16,7 @@ class Er5k extends React.Component {
         Manufacturer website:<br />
         Videos:<br />
         Manual:<br />
-        <a href='https://www.emerson.com/documents/automation/manual-er5000-user-manual-tescom-en-123612.pdf'
+        <a href='https://www.emerson.com/documents/automation/manual-er5000-user-manual-tescom-en-123612.pdf' target='_blank'
         >ER5K Manual</a><br />
         <table>
           <tr><th>Subject</th><th>Page</th></tr>

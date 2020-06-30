@@ -64,6 +64,17 @@ class PlcConfigure extends React.Component {
           <li>Alarms are set for certain levels that need to be noticed</li>
         <h3></h3>
         <h3></h3>
+        <h2>Micro 800 series</h2>
+          <ol>
+            <li>Plug in usb to controller, follow steps in book on USB</li>
+            <li>Open RSLinx classic with USB in</li>
+            <li>Run RSWHO or click the network looking button</li>
+            <li>Click icon to allow automatic EDS File upload.</li>
+            <li>If device not under USB but under virtual instead, right click and choose "Upload EDS file from device"</li>
+            <li>Follow wizard Prompts</li>
+            <li>Hook up to Network</li>
+            <li>Configure Ethernet the same way it says in the manual</li>
+          </ol>
       </div>
     );
   }
