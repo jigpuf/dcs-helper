@@ -21,6 +21,16 @@ class CCW extends React.Component {
         <tr><td>Forcing I/Os</td><td>277-278</td></tr>
         <tr><td>Troubleshooting</td><td>303-315</td></tr>
       </table>
+      <h3>Download instructions</h3>
+        <ol>
+          <li>May requiree an account setup</li>
+          <li>Go to rockwell Automation Website</li>
+          <li>Click Menu and choose Compaibility and downloads</li>
+          <li>find Downloads- search connected components </li>
+          <li>Download version 12 and choose all options under downloads</li>
+          <li>Hit download button. choose between direct and other download.  Direct is easy</li>
+          <li>Will Download EXE and RAR files.  2 parts</li>
+        </ol>
       <h3>Software Dependencies</h3>
         Windows 10 requires microsoft.net 3.5 Software Package 1<br />
         To find out if this is installed:<br />
@@ -42,6 +52,8 @@ class CCW extends React.Component {
         </ol>
       <h3>Hardware</h3>
       This works with the 800 series controllers
+      <h3>Setup</h3>
+      To make it look like logix 5000, set the theme to "logix"
       </div>
     );
   }
