@@ -17,6 +17,7 @@ class SideMenu extends React.Component {
       { name: 'Inventory', slug: 'inventory' },
       { name: 'Training', slug: 'training' },
       { name: 'Links', slug: 'links' },
+      { name: 'Apps', slug: 'apps' },
 
     ];
 //Build  array.  slug is an attribute of each item. Name is what shows.
