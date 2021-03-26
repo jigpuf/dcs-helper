@@ -9,6 +9,7 @@ import Aws from './controls/aws.js';
 import SeaLevel from './controls/seaLevel.js';
 import Stat from './controls/stat.js';
 import Deploy from './controls/deploy.js';
+import Formic from './controls/formic.js';
 
 class Controls extends React.Component {
   state = {
@@ -24,6 +25,7 @@ class Controls extends React.Component {
 
     const Items = [
       {name: 'file_sync', slug: 'sync', component:<FileSync /> },
+      {name: 'Formic', slug: 'formic', component:<Formic /> },
       {name: 'PLC', slug: 'plc', component:<Plc /> },
       {name: 'National Instruments', slug: 'ni', component:<Ni />},
       {name: 'VFD', slug: 'vfd', component:<Vfd />},

@@ -16,7 +16,7 @@ class Er5k extends React.Component {
         Manufacturer website:<br />
         Videos:<br />
         Manual:<br />
-        <a href='https://www.emerson.com/documents/automation/manual-er5000-user-manual-tescom-en-123612.pdf' target='_blank'
+        <a href='https://www.manualslib.com/manual/1959985/Emerson-Tescom-Er5k.html?page=22#manual' target='_blank'
         >ER5K Manual</a><br />
         <table>
           <tr><th>Subject</th><th>Page</th></tr>
@@ -54,9 +54,9 @@ class Er5k extends React.Component {
             <tr><th>7</th><td>Violet</td><td>(+) 24v DC Power</td><th>A</th></tr>
             <tr><th>8</th><td>Gray</td><td>(-) 24v DC Return</td><th>B</th></tr>
             <tr><th>9</th><td>White</td><td>(+)5v output (5mA max)</td><th>N/A</th></tr>
-            <tr><th>10</th><td>Black</td><td>analog Signal/ Board Ground</td><th></th></tr>
+            <tr><th>10</th><td>Black</td><td>analog Signal/ Board Ground</td><th>N/A</th></tr>
             <tr><th>11</th><td>Pink</td><td>Analog Signal Output</td><th>N/A</th></tr>
-            <tr><th>12</th><td>Tan</td><td>Analog Signal/Board Ground</td><th></th></tr>
+            <tr><th>12</th><td>Tan</td><td>Analog Signal/Board Ground</td><th>N/A</th></tr>
           </table>
         Connectors:<br />
         <hr />
